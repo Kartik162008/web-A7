@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amitabh Bachchan - Wikipedia</title>
+    <style>
+        /* Basic Wikipedia-like styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #202122;
+            background-color: #ffffff;
+        }
+
+        /* Header / Top Bar */
+        header {
+            border-bottom: 1px solid #a2a9b1;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+        }
+        
+        .logo {
+            font-family: 'Linux Libertine', Georgia, Times, serif;
+            font-size: 24px;
+            margin-right: 30px;
+        }
+
+        /* Layout Layout */
+        .container {
+            display: flex;
+            max-width: 1400px;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .sidebar {
+            width: 160px;
+            padding-right: 20px;
+            font-size: 0.85em;
+            color: #54595d;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 8px;
+        }
+
+        .content {
+            flex-grow: 1;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            font-family: 'Linux Libertine', Georgia, Times, serif;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 1.6em;
+            border-bottom: 1px solid #a2a9b1;
+            margin-top: 1.5em;
+            padding-bottom: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0645ad;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 0.5em 0 1em 0;
+        }
+
+        /* Infobox */
+        .infobox {
+            float: right;
+            width: 260px;
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            padding: 5px;
+            margin: 0 0 1em 1.5em;
+            font-size: 0.9em;
+        }
+
+        .infobox-title {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: #b0c4de;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        .infobox img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #c8ccd1;
+        }
+
+        .infobox table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .infobox th {
+            text-align: left;
+            padding: 4px 8px;
+            vertical-align: top;
+            width: 35%;
+        }
+
+        .infobox td {
+            padding: 4px 8px;
+            vertical-align: top;
+        }
+
+        /* Table of Contents */
+        .toc {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 0.9em;
+            margin: 1em 0;
+        }
+
+        .toc-title {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        
+        .toc ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .toc ul ul {
+            padding-left: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">WIKIPEDIA</div>
+        <div><input type="text" placeholder="Search Wikipedia" style="padding: 5px; width: 200px;"></div>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Main page</a></li>
+                <li><a href="#">Contents</a></li>
+                <li><a href="#">Current events</a></li>
+                <li><a href="#">Random article</a></li>
+                <li><a href="#">About Wikipedia</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Donate</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <h1>Amitabh Bachchan</h1>
+            
+            <!-- Infobox (Right side) -->
+            <div class="infobox">
+                <div class="infobox-title">Amitabh Bachchan</div>
+                <!-- Placeholder image - using a generic placeholder as real images have copyright issues -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Amitabh_Bachchan_in_2013.jpg/330px-Amitabh_Bachchan_in_2013.jpg" alt="Amitabh Bachchan">
+                <div style="text-align: center; font-size: 0.8em; margin-bottom: 10px;">Bachchan in 2013</div>
+                <table>
+                    <tr>
+                        <th>Born</th>
+                        <td>Amitabh Srivastava<br>11 October 1942 (age 81)<br><a href="#">Allahabad</a>, <a href="#">United Provinces</a>, <a href="#">British India</a></td>
+                    </tr>
+                    <tr>
+                        <th>Occupations</th>
+                        <td>Actor • film producer • television host • playback singer</td>
+                    </tr>
+                    <tr>
+                        <th>Years active</th>
+                        <td>1969–present</td>
+                    </tr>
+                    <tr>
+                        <th>Spouse</th>
+                        <td><a href="#">Jaya Bhaduri</a> (m. 1973)</td>
+                    </tr>
+                    <tr>
+                        <th>Children</th>
+                        <td><a href="#">Shweta Bachchan Nanda</a><br><a href="#">Abhishek Bachchan</a></td>
+                    </tr>
+                    <tr>
+                        <th>Parents</th>
+                        <td><a href="#">Harivansh Rai Bachchan</a> (father)<br>Teji Bachchan (mother)</td>
+                    </tr>
+                    <tr>
+                        <th>Awards</th>
+                        <td><a href="#">Padma Vibhushan</a> (2015)<br><a href="#">Dadasaheb Phalke Award</a> (2019)<br><a href="#">Full list</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Introductory text -->
+            <p><b>Amitabh Bachchan</b> (born <b>Amitabh Srivastava</b>; 11 October 1942) is an Indian actor, film producer, television host, occasional playback singer, and former politician known for his work in Hindi cinema. He is regarded as one of the most successful and influential actors in the history of Indian cinema. Bachchan is often referred to as the <i>Shahenshah of Bollywood</i>, <i>Sadi Ka Mahanayak</i> (Hindi for, "Greatest actor of the century"), or simply <i>Big B</i>.</p>
+            
+            <p>During the 1970s and 1980s, he was the most dominant actor in the Indian movie scene; the French director <a href="#">François Truffaut</a> called him a "one-man industry". Beyond the Indian subcontinent, he also has a large overseas following.</p>
+
+            <!-- Table of Contents -->
+            <div class="toc">
+                <div class="toc-title">Contents</div>
+                <ul>
+                    <li><a href="#early-life">1 Early life</a></li>
+                    <li><a href="#career">2 Acting career</a>
+                        <ul>
+                            <li><a href="#early-work">2.1 Early work (1969–1972)</a></li>
+                            <li><a href="#angry-young-man">2.2 Rise to stardom: "Angry young man" (1973–1983)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#television">3 Television career</a></li>
+                </ul>
+            </div>
+
+            <!-- Sections -->
+            <h2 id="early-life">Early life</h2>
+            <p>Bachchan was born on 11 October 1942 in <a href="#">Allahabad</a> to the Hindi poet <a href="#">Harivansh Rai Bachchan</a>, and social activist Teji Bachchan. Harivansh Rai was an Awadhi Hindu Kayastha, who was fluent in Awadhi, Hindi, and Urdu. His ancestors came from a village called Babupatti, in the Raniganj tehsil, in the Pratapgarh district, in the present-day state of Uttar Pradesh.</p>
+
+            <h2 id="career">Acting career</h2>
+            
+            <h3 id="early-work">Early work (1969–1972)</h3>
+            <p>Bachchan made his film debut in 1969, as a voice narrator in Mrinal Sen's National Award-winning film <i>Bhuvan Shome</i>. His first acting role was as one of the seven protagonists in the film <i>Saat Hindustani</i>, directed by <a href="#">Khwaja Ahmad Abbas</a>.</p>
+
+            <h3 id="angry-young-man">Rise to stardom: "Angry young man" (1973–1983)</h3>
+            <p>The year 1973 was highly significant for Bachchan. The director <a href="#">Prakash Mehra</a> cast him in the leading role for the film <i>Zanjeer</i> as Inspector Vijay Khanna. The film was a sharp contrast to the romantically themed films that had generally preceded it and established Amitabh in a new persona—the "angry young man" of Bollywood cinema. He went on to star in landmark films such as <i>Deewaar</i> (1975) and <i>Sholay</i> (1975).</p>
+
+            <h2 id="television">Television career</h2>
+            <p>In 2000, Bachchan hosted the first season of <i><a href="#">Kaun Banega Crorepati</a></i> (KBC), the Indian adaptation of the British television game show <i>Who Wants to Be a Millionaire?</i>. The show was well received, and a second season followed in 2005. He has continued to host the majority of the show's seasons, cementing his status as a beloved household figure on Indian television.</p>
+            
+            <hr style="margin-top: 40px; border: 0; border-top: 1px solid #a2a9b1;">
+            <p style="font-size: 0.8em; color: #54595d;">This page was last edited recently. Text is available under the Creative Commons Attribution-ShareAlike License 4.0.</p>
+        </main>
+    </div>
+</body>
+</html>

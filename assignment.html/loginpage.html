@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+    <h2>User Login</h2>
+    <!-- The form submits and redirects to the About Me page -->
+    <form action="aboutmepage.html" method="get">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="login-password">Password:</label><br>
+        <!-- The 'title' attribute acts as the tooltip. Limits are set by minlength and maxlength -->
+        <input type="password" id="login-password" name="password" 
+               minlength="8" maxlength="20" 
+               title="Password must be between 8 and 20 characters long and contain at least one number." 
+               required><br>
+        <small><i>Hover over the password box to see the requirements.</i></small><br><br>
+
+        <button type="submit" href="aboutmepage.html">Login</button>
+    </form>
+</body>
+</html>
