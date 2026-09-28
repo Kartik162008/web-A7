@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -93,4 +94,101 @@
     </main>
     
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        html{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        main{
+            width: 960px;
+            height: 1000px;
+            background-color: rgb(211, 147, 68);
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        header{
+            width: 960px;
+            height: 100px;
+            background-color: aqua;
+        }
+        nav{
+            width: 960px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+        section{
+            width: 960px;
+            height: 400px;
+            background-color: cadetblue;
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+        }
+        #left{
+            flex-grow: 1;
+            background-color: #999;
+        }
+        #right{
+            flex-grow: 2;
+            background-color: #777;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        aside,article{
+            background-color: #ccc;
+            flex-grow: 1;
+        }
+        footer{
+            width: 960px;
+            height: 250px;
+            background-color: rgb(130, 123, 123);
+        }
+    </style>
+</head>
+<body>
+    <!--main start-->
+    <main>
+        <header>
+            <h2>Header</h2>
+        </header>
+        <nav>
+            <h2>Navbar</h2>
+        </nav>
+        <section>
+            <div id="left">
+
+            </div>
+            <div id="right">
+                <div id="Aside"></div> <div id="Align"></div>
+
+            </div>
+        </section>
+
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+    </main>
+    
+</body>
+>>>>>>> c99ef87c1b8f956eef0ed973e0bff4c7dcda33af
 </html>
