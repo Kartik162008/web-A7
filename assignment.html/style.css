@@ -151,6 +151,24 @@ ul li:hover {
     margin-top: 15px;
 }
 
+/* --- Button Styling --- */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0072ff; /* Tumhare theme ka blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #005bb5; /* Hover par dark blue */
+    transform: translateY(-2px); /* Hover par thoda upar uthega */
+}
+
 /* --- Footer --- */
 footer {
     text-align: center;
