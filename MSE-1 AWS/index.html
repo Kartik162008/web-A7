@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Nexus | Register</title>
+    <link rel="stylesheet" href="games2.css">
+</head>
+<body>
+    <header id="navbar">
+        <div class="logo">NEXUS GAMES</div>
+        
+    </header>
+
+    <main class="auth-wrapper">
+        <div class="auth-container">
+            <h2>Join the Nexus</h2>
+            <p>Create an account to access the store.</p>
+            
+            <!-- action="store.html" ka matlab hai register click karne par store page khulega -->
+            <form action="store.html" class="auth-form">
+                <div class="input-group">
+                    <label for="username">Gamer Tag / Username</label>
+                    <input type="text" id="username" placeholder="Enter your username" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Create a password" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                
+                <button type="submit" class="btn primary auth-btn">Register & Enter Store</button>
+            </form>
+            
+            <div class="auth-links">
+                <p>Already have an account? <a href="store.html">Login here</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
